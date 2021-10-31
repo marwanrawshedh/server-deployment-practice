@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3010;
 const notfound = require("./error/notfound");
 const time = require("./middleware/date");
 const generale=('./error/generalerror.js')
-
+server.use(express.json());
 server.get("/", home);
 function home(req, res) {
   res.status(200).send("welcome");
@@ -32,7 +32,7 @@ server.use((error, req, res, next) => {
         message: `SERVER ERROR: ${error.message}`
       })
 });
-
+ console.log
 const letbegin = () => {
   server.listen(PORT, () => {
     console.log(`hi on${PORT}`);
