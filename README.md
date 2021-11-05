@@ -2,7 +2,7 @@
 
 - Heroku applications for dev branch:https://marwan-server-deploy-dev.herokuapp.com/
 
-- Heroku applications for dev branch:https://marwan-server-deploy-prod.herokuapp.com/
+- Heroku applications for main branch:https://marwan-server-deploy-prod.herokuapp.com/
 
 - pull request:https://github.com/marwanrawshedh/server-deployment-practice/pull/3
 - pull request:https://github.com/marwanrawshedh/server-deployment-practice/actions
